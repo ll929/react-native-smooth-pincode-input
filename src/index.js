@@ -223,6 +223,7 @@ class SmoothPinCodeInput extends Component {
           keyboardType={keyboardType}
           numberOfLines={1}
           caretHidden
+          secureTextEntry
           maxLength={codeLength}
           selection={{
             start: value.length,
